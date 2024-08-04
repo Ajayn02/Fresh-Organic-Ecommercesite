@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    margin: 0;
+    padding-right: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+/* navbar */
+.search{
+    border-radius: 15px 0px 0px 15px;
+    padding-left: 10px;
+    width: 130px;
+    border-right: none;
+    
+}
+.search:focus{
+    outline: none;
+    border-right: none;
+}
+.d-flex .btn{
+    border-radius: 0px 15px 15px 0px;
+    padding: 7px;
+}
+.nav-item a{
+    font-weight: bold;
+    margin-right: 25px;
+}
+.nav-item a:hover{
+    color: rgb(51, 224, 28);
+
+}
+
+/* sec-1 */
+.row1{
+    border: 1px solid black;
+    /* background-color: rgb(101, 197, 99); */
+}
+.col1-1{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding-left: 100px;
+}
+.content1 h1{
+    font-size: 80px;
+    font-family: "Kanit", sans-serif;
+}
+@media (max-width:1220px) {
+    .content1 h1{
+        font-size: 70px;
+    }
+}
+@media (max-width:1100px) {
+    .content1 h1{
+        font-size: 60px;
+    }
+}
+@media (max-width:970px) {
+    .content1 h1{
+        font-size: 50px;
+    }
+}
+@media (max-width:850px) {
+    .content1 h1{
+        font-size: 42px;
+    }
+}
+@media (max-width:750px) {
+    .content1 h1{
+        font-size: 37px;
+    }
+}
+@media (max-width:685px) {
+    .content1 h1{
+        font-size: 35px;
+    }
+    .col1-1{
+        padding-left: 70px;
+    }
+    .content1 h5{
+        font-size: 15px;
+    }
+}
+@media (max-width:600px) {
+    .content1 h1{
+        font-size: 28px;
+    }
+    .col1-1{
+        padding-left: 60px;
+    }
+    .content1 h5{
+        font-size: 14px;
+    }
+}
+@media (max-width:492px) {
+    .content1 h1{
+        font-size: 25px;
+    }
+    .col1-1{
+        padding-left: 30px;
+    }
+    .content1 h5{
+        font-size: 12px;
+    }
+}
+@media (max-width:492px) {
+    .content1 h1{
+        font-size: 20px;
+    }
+    .col1-1{
+        padding-left: 25px;
+    }
+    .content1 h5{
+        font-size: 11px;
+    }
+}
+
+/* section-2 */
+.col2{
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.content2{
+    text-align: center;
+    padding: 0px 200px;
+}
+.content2 h1{
+    font-size: 75px;
+    font-family: "Kanit", sans-serif;
+
+}
+.col2-b1{
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+@media (max-width:1100px) {
+    .content2{
+        padding: 0px 100px;
+    }
+}
+@media (max-width:870px) {
+    .content2{
+        padding: 0px 50px;
+    }
+    .content2 h1{
+        font-size: 50px;
+    }
+    .col2{
+        height:500px;
+    }
+   
+}
+@media (max-width:600px) {
+    .content2{
+        padding: 0px 30px;
+    }
+    .content2 h1{
+        font-size: 40px;
+    }
+    .col2{
+        height:400px;
+    }
+    .col2-b1{
+        padding: 10px 10px;
+    }
+}
+@media (max-width:420px) {
+    .content2{
+        padding: 0px 30px;
+    }
+    .content2 h1{
+        font-size: 30px;
+    }
+    .col2{
+        height:300px;
+    }
+    .col2-b1{
+        padding: 5px 10px;
+    }
+    .col2 p{
+        font-size: 12px;
+    }
+}
+@media (max-width:350px) {
+    .content2{
+        padding: 0px 30px;
+    }
+    .content2 h1{
+        font-size: 25px;
+    }
+    .col2{
+        height:300px;
+    }
+     .col2-b1{
+        padding: 5px 8px;
+    }
+    .col2 p{
+        font-size: 11px;
+    }
+}
+
+/* sec-3 */
+.row3-1{
+    text-align: center;
+    border: 1px solid black;
+    padding: 30px 0px;
+}
+.row3-2{
+    border: 1px solid black;
+   display: flex;
+   justify-content: center;
+}
+.col3-1,.col3-2,.col3-3{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    padding: 20px 0px;
+    margin: 10px;
+
+}
+.card3{
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
