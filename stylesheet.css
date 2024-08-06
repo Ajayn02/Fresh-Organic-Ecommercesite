@@ -4,17 +4,25 @@ body{
     padding-right: 0;
     box-sizing: border-box;
     overflow-x: hidden;
+    
 }
 *{
     margin: 0;
     padding: 0;
 }
 /* navbar */
+.navbar-expand-lg{
+   background-color: white;
+}
+.nav-link{
+    color: rgb(10, 36, 24);
+}
 .search{
     border-radius: 15px 0px 0px 15px;
     padding-left: 10px;
     width: 130px;
     border-right: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     
 }
 .search:focus{
@@ -35,8 +43,12 @@ body{
 }
 
 /* sec-1 */
+.sec-1{
+    background: rgb(182,228,197);
+background: linear-gradient(90deg, rgba(182,228,197,1) 32%, rgba(239,250,243,1) 89%);
+}
 .row1{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     /* background-color: rgb(101, 197, 99); */
 }
 .col1-1{
@@ -44,11 +56,13 @@ body{
     justify-content: center;
     align-items:center;
     padding-left: 100px;
+    /* background-color: rgba(182, 228, 197,100); */
 }
 
 .content1 h1{
     font-size: 80px;
     font-family: "Kanit", sans-serif;
+    color: rgb(10, 36, 24);
 }
 @media (max-width:1220px) {
     .content1 h1{
@@ -122,13 +136,17 @@ body{
 }
 
 /* section-2 */
+.sec-2{
+    background: rgb(181,229,195);
+    background: linear-gradient(90deg, rgba(181,229,195,1) 65%, rgba(217,242,223,1) 100%);
+}
 .col2{
     padding: 0;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .content2{
@@ -138,12 +156,16 @@ body{
 .content2 h1{
     font-size: 75px;
     font-family: "Kanit", sans-serif;
+    color: rbg(10, 36, 24);
 
 }
 .col2-b1{
     padding: 10px 20px;
     border-radius: 25px;
     font-weight: bold;
+    background: rgb(32,123,73);
+background: linear-gradient(90deg, rgba(32,123,73,1) 21%, rgba(48,153,93,1) 67%);
+border: none;
 }
 
 @media (max-width:1100px) {
@@ -213,21 +235,25 @@ body{
 }
 
 /* sec-3 */
+.sec-3{
+    background: rgb(217,242,223);
+background: linear-gradient(90deg, rgba(217,242,223,1) 8%, rgba(181,229,195,1) 56%);
+}
 .row3-1{
     text-align: center;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     padding: 30px 0px;
 }
 .row3-2{
-    border: 1px solid black;
+    /* border: 1px solid black; */
    display: flex;
    justify-content: center;
 }
 .col3-1,.col3-2,.col3-3{
     display: flex;
     justify-content: center;
-    border: 1px solid black;
-    padding: 20px 0px;
+    /* border: 1px solid black; */
+    padding: 30px 0px;
     margin: 10px;
 
 }
@@ -237,9 +263,14 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+  
 }
 
 /* sec-4 */
+.sec-4{
+    background: rgb(181,229,195);
+background: linear-gradient(90deg, rgba(181,229,195,1) 27%, rgba(217,242,223,1) 85%);
+}
 .row4-1{
     display: flex;
     justify-content: center;
@@ -251,7 +282,7 @@ body{
     text-align: center;
 }
 .col4-1,.col4-2,.col4-3{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     justify-content: center;
     margin-top: 30px;
@@ -259,32 +290,39 @@ body{
 .row4-2{
     display: flex;
     justify-content: center;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 .row4-3{
     padding: 20px 0px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     justify-content: center;
 }
 .row4-3 button{
     padding:10px;
     width: 150px;
-    border-radius: 10px;
+    border-radius: 13px;
+    background: linear-gradient(90deg, rgba(32,123,73,1) 21%, rgba(48,153,93,1) 67%);
+border: none;
 }
 
+
 /* sect-5 */
+.sec-5{
+    background: rgb(217,242,223);
+background: linear-gradient(90deg, rgba(217,242,223,1) 21%, rgba(181,229,195,1) 68%);
+}
 
 .row5{
     display: flex;
     justify-content: center;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     padding-bottom: 30px;
 }
 .col5{
     display: flex;
     justify-content: center;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin-top: 30px;
 }
 .cd5{
@@ -298,9 +336,12 @@ body{
 }
 
 /* section-6 */
-
+.sec-6{
+    background: rgb(217,242,223);
+background: linear-gradient(90deg, rgba(217,242,223,1) 21%, rgba(181,229,195,1) 68%);
+}
 .col6{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -309,10 +350,13 @@ body{
 .row6-2,.row6-1{
     display: flex;
     justify-content: center;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 
 }
 .img-fluid{
     width: 100%;
     height: 100%;
+}
+.card,button{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
