@@ -20,42 +20,42 @@
 
   <!-- navbar -->
 
-  <nav class="navbar bg-body-tertiary navbar-expand-lg  p-4" >
+  <nav class="navbar bg-body-tertiary navbar-expand-lg  p-4">
     <div class="container-fluid">
       <a class="navbar-brand" href="#"><b>Fresh Organic
-      </b></a>
+        </b></a>
       <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
         aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
         <ul class="navbar-nav m-auto mb-2 mb-lg-0">
           <!-- <li class="nav-item">
                     <a class="navbar-brand" href="#">Navbar</a>
                   </li> -->
           <li class="nav-item">
-            <a class="nav-link " href="#">HOME</a>
+            <a class="nav-link " href="#home">HOME</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">SERVICES</a>
+            <a class="nav-link" href="#service">SERVICES</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link ">TRENDING</a>
+            <a class="nav-link " href="#trend">TRENDING</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link ">CONTACT</a>
+            <a class="nav-link " href="#foot">CONTACT</a>
           </li>
 
         </ul>
-        <form class="d-flex" role="search">
-          <input class="search border border-success" type="search" placeholder="Search" aria-label="Search"  >
-          <button class="btn btn-dark sbtn  me-4 " type="submit">Search</button>
+        <form class="d-flex align-items-center" role="search">
+          <input class="search border border-success " type="search" placeholder="Search" aria-label="Search" style="height: 37px;">
+          <button class="btn btn-dark sbtn  me-4 " type="submit" style="height: 37px;">Search</button>
+
+          <i class="fa-solid fa-cart-shopping fa-xl " style="color: rgb(75, 156, 92);"></i>
 
         </form>
-        <i class="fa-solid fa-cart-shopping fa-xl " style="color: rgb(75, 156, 92);
-;"></i>
 
       </div>
     </div>
@@ -63,7 +63,7 @@
 
   <!-- first section -->
 
-  <div class="container-fluid sec-1">
+  <div class="container-fluid sec-1" id="home">
     <div class="row row1">
       <div class="col-6 col1-1">
         <div class="content1">
@@ -99,11 +99,9 @@
 
   <!-- sec-3 -->
   <div class="container-fluid sec-3">
-    <div class="row row3-1 ">
-      <p>Green Agriculture</p>
-      <h1 style="  color: rbg(10, 36, 24);">Welcome to Organic</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, officiis laborum. Quos similique
-        asperiores nobis magni? </p>
+    <div class="row row3-1 px-lg-5">
+      <h1 style="font-weight: bold;"> Why Choose Us?</h1>
+      <p style="font-weight: bold;">At Fresh Harvest, we are passionate about bringing you the freshest, most nutritious organic vegetables straight from the farm to your table. Our commitment to quality means that you get the best produce, grown without harmful chemicals, and delivered with care.</p>
     </div>
     <div class="row row3-2">
       <div class="col-lg-3 col-md-3 col-sm-10 col-10 col3-1">
@@ -111,7 +109,7 @@
           <img src="./media/barn.png" class="card-img-top" alt="..." style="width: 30%;">
           <div class="card-body">
             <h5 class="card-title">Always Fresh</h5>
-            <p class="card-text">Some quick example text to build on the card title and</p>
+            <p class="card-text">We harvest daily to ensure maximum freshness and flavor.</p>
           </div>
         </div>
       </div>
@@ -120,7 +118,7 @@
           <img src="./media/healthy-food.png" class="card-img-top" alt="..." style="width: 30%;">
           <div class="card-body">
             <h5 class="card-title">Healthy Food</h5>
-            <p class="card-text">Some quick example text to build on the card title and </p>
+            <p class="card-text">Enjoy the convenience of having fresh produce delivered right to your door.</p>
           </div>
         </div>
       </div>
@@ -129,7 +127,7 @@
           <img src="./media/organic.png" class="card-img-top" alt="..." style="width: 30%;">
           <div class="card-body">
             <h5 class="card-title">100% Organic</h5>
-            <p class="card-text">Some quick example text to build on the card title and</p>
+            <p class="card-text"> All our veggies are grown using sustainable farming practices.</p>
           </div>
         </div>
       </div>
@@ -139,13 +137,11 @@
 
   <!-- section-4 -->
 
-  <div class="container-fluid sec-4">
+  <div class="container-fluid sec-4" id="trend">
     <div class="row row4-1">
       <div class="content4  text-center pt-5">
-        <p>Green Agriculture</p>
-        <h1 style="  color: rbg(10, 36, 24);">Our Best Products</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos eligendi rem est, culpa delectus quia. Iure
-          minus, eius distinctio odio repellat laborum quos reiciendis nisi ipsum asperiores voluptatibus ea magni.</p>
+        <h1 style="font-weight: bold;">Our Best Products</h1>
+        <p style="font-weight: bold;">Discover the finest selection of our most-loved organic vegetables, handpicked for their exceptional taste and quality. These are the veggies that our customers keep coming back for!</p>
       </div>
     </div>
 
@@ -156,7 +152,7 @@
           <div class="card-body cb4">
             <h5 class="card-title">Orange</h5>
             <p class="card-text">$23.34</p>
-            <a href="#" class="btn btn-primary">Add to Cart</a>
+            <a href="#" class="btn ">Add to Cart</a>
           </div>
         </div>
       </div>
@@ -166,7 +162,7 @@
           <div class="card-body cb4">
             <h5 class="card-title">Pappaya</h5>
             <p class="card-text">$76</p>
-            <a href="#" class="btn btn-primary">Add to Cart</a>
+            <a href="#" class="btn ">Add to Cart</a>
           </div>
         </div>
       </div>
@@ -176,7 +172,7 @@
           <div class="card-body cb4">
             <h5 class="card-title">Red Anar</h5>
             <p class="card-text">$56</p>
-            <a href="#" class="btn btn-primary">Add to Cart</a>
+            <a href="#" class="btn ">Add to Cart</a>
           </div>
         </div>
       </div>
@@ -189,7 +185,7 @@
           <div class="card-body cb4">
             <h5 class="card-title">Strawberry</h5>
             <p class="card-text">$23.34</p>
-            <a href="#" class="btn btn-primary">Add to Cart</a>
+            <a href="#" class="btn ">Add to Cart</a>
           </div>
         </div>
       </div>
@@ -199,7 +195,7 @@
           <div class="card-body cb4">
             <h5 class="card-title">Melon</h5>
             <p class="card-text">$76</p>
-            <a href="#" class="btn btn-primary">Add to Cart</a>
+            <a href="#" class="btn ">Add to Cart</a>
           </div>
         </div>
       </div>
@@ -209,7 +205,7 @@
           <div class="card-body cb4">
             <h5 class="card-title">Mango</h5>
             <p class="card-text">$56</p>
-            <a href="#" class="btn btn-primary">Add to Cart</a>
+            <a href="#" class="btn ">Add to Cart</a>
           </div>
         </div>
       </div>
@@ -220,7 +216,7 @@
 
   <!-- section-5 -->
 
-  <div class="container-fluid sec-5">
+  <div class="container-fluid sec-5" id="service">
     <div class="row row5 py-5">
 
       <div class="col-lg-2 col-md-5 col-sm-8 col-8 col5 ">
@@ -228,8 +224,7 @@
           <i class="fa-solid fa-truck fa-4x" style="color: #030303;"></i>
           <div class="card-body cb5">
             <h5 class="card-title">Free Shipping</h5>
-            <p class="card-text">Some quick example text to build on the card title
-              content.</p>
+            <p class="card-text">Get free shipping on your order today   </p>
           </div>
         </div>
       </div>
@@ -239,8 +234,7 @@
           <i class="fa-solid fa-certificate fa-4x" style="color: #000000;"></i>
           <div class="card-body cb5">
             <h5 class="card-title">Organic Certified</h5>
-            <p class="card-text">Some quick example text to build on the card title
-              content.</p>
+            <p class="card-text">Purely organic,purely perfect</p>
           </div>
         </div>
       </div>
@@ -250,8 +244,7 @@
           <i class="fa-regular fa-credit-card fa-4x" style="color: #0a0a0a;"></i>
           <div class="card-body cb5">
             <h5 class="card-title">Secure Payment</h5>
-            <p class="card-text">Some quick example text to build on the card title
-              content.</p>
+            <p class="card-text">Safe and secure payments,every time</p>
           </div>
         </div>
       </div>
@@ -261,8 +254,7 @@
           <i class="fa-solid fa-user-plus fa-4x" style="color: #030303;"></i>
           <div class="card-body">
             <h5 class="card-title">Friendly Support</h5>
-            <p class="card-text">Some quick example text to build on the card title
-              content.</p>
+            <p class="card-text">Friendly Support,just a click away</p>
           </div>
         </div>
       </div>
@@ -273,14 +265,16 @@
   <!-- section-6 -->
   <div class="container-fluid sec-6">
     <div class="row row6-1 ">
-      <div class="col-9 pb-4"><h2 style="  color: rbg(10, 36, 24);">New Arrivals</h2></div>
+      <div class="col-9 pb-4">
+        <h2 style="  color: rbg(10, 36, 24);">New Arrivals</h2>
+      </div>
     </div>
     <div class="row row6-2">
       <div class="col-lg-5 col-md-5 col-sm-8 col-8 col6">
         <div class="card mb-3" style="max-width: 500px;">
           <div class="row g-0">
             <div class="col-md-4">
-              <img src="./media/lemon.jpg" class="img-fluid rounded-start" alt="..." >
+              <img src="./media/lemon.jpg" class="img-fluid rounded-start" alt="...">
             </div>
             <div class="col-md-8">
               <div class="card-body">
@@ -355,7 +349,7 @@
               <div class="card-body">
                 <h5 class="card-title">Mint</h5>
                 <p class="card-text">$67</p>
-               
+
               </div>
             </div>
           </div>
@@ -371,7 +365,7 @@
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">$54</p>
-                
+
               </div>
             </div>
           </div>
@@ -383,78 +377,42 @@
 
 
 
-  <footer class="text-center bg-body-tertiary p-5" style="margin-top: 150px;">
+  <footer class="text-center bg-body-tertiary p-5" style="margin-top: 150px;" id="foot">
     <!-- Grid container -->
     <div class="container pt-4">
       <!-- Section: Social media -->
       <section class="mb-4">
         <!-- Facebook -->
-        <a
-          data-mdb-ripple-init
-          class="btn btn-link btn-floating btn-lg text-body m-1"
-          href="#!"
-          role="button"
-          data-mdb-ripple-color="dark"
-          ><i class="fab fa-facebook-f"></i
-        ></a>
-  
+        <a data-mdb-ripple-init class="btn btn-link btn-floating btn-lg text-body m-1" href="#!" role="button"
+          data-mdb-ripple-color="dark"><i class="fab fa-facebook-f"></i></a>
+
         <!-- Twitter -->
-        <a
-          data-mdb-ripple-init
-          class="btn btn-link btn-floating btn-lg text-body m-1"
-          href="#!"
-          role="button"
-          data-mdb-ripple-color="dark"
-          ><i class="fab fa-twitter"></i
-        ></a>
-  
+        <a data-mdb-ripple-init class="btn btn-link btn-floating btn-lg text-body m-1" href="#!" role="button"
+          data-mdb-ripple-color="dark"><i class="fab fa-twitter"></i></a>
+
         <!-- Google -->
-        <a
-          data-mdb-ripple-init
-          class="btn btn-link btn-floating btn-lg text-body m-1"
-          href="#!"
-          role="button"
-          data-mdb-ripple-color="dark"
-          ><i class="fab fa-google"></i
-        ></a>
-  
+        <a data-mdb-ripple-init class="btn btn-link btn-floating btn-lg text-body m-1" href="#!" role="button"
+          data-mdb-ripple-color="dark"><i class="fab fa-google"></i></a>
+
         <!-- Instagram -->
-        <a
-          data-mdb-ripple-init
-          class="btn btn-link btn-floating btn-lg text-body m-1"
-          href="#!"
-          role="button"
-          data-mdb-ripple-color="dark"
-          ><i class="fab fa-instagram"></i
-        ></a>
-  
+        <a data-mdb-ripple-init class="btn btn-link btn-floating btn-lg text-body m-1" href="#!" role="button"
+          data-mdb-ripple-color="dark"><i class="fab fa-instagram"></i></a>
+
         <!-- Linkedin -->
-        <a
-          data-mdb-ripple-init
-          class="btn btn-link btn-floating btn-lg text-body m-1"
-          href="#!"
-          role="button"
-          data-mdb-ripple-color="dark"
-          ><i class="fab fa-linkedin"></i
-        ></a>
+        <a data-mdb-ripple-init class="btn btn-link btn-floating btn-lg text-body m-1" href="#!" role="button"
+          data-mdb-ripple-color="dark"><i class="fab fa-linkedin"></i></a>
         <!-- Github -->
-        <a
-          data-mdb-ripple-init
-          class="btn btn-link btn-floating btn-lg text-body m-1"
-          href="#!"
-          role="button"
-          data-mdb-ripple-color="dark"
-          ><i class="fab fa-github"></i
-        ></a>
+        <a data-mdb-ripple-init class="btn btn-link btn-floating btn-lg text-body m-1" href="#!" role="button"
+          data-mdb-ripple-color="dark"><i class="fab fa-github"></i></a>
       </section>
       <!-- Section: Social media -->
     </div>
     <!-- Grid container -->
-  
+
     <!-- Copyright -->
     <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
-      © 2020 Copyright:
-      <a class="text-body" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+      © 2024 Copyright:
+      <a class="text-body" href="" style="text-decoration: none;">Fresh-organic.com</a>
     </div>
     <!-- Copyright -->
   </footer>

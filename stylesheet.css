@@ -12,11 +12,11 @@ background: linear-gradient(90deg, rgba(182,228,197,1) 32%, rgba(239,250,243,1) 
     margin: 0;
     padding: 0;
 }
-/* navbar */
-/* .navbar-expand-lg{
-   background-color: rgb(14, 37, 22);
-   
-} */
+/* navbar */ 
+ .navbar-expand-lg{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
 .nav-link{
     color: rgb(75, 156, 92);
 }
@@ -52,6 +52,7 @@ background: linear-gradient(90deg, rgba(182,228,197,1) 32%, rgba(239,250,243,1) 
     color: rgb(75, 156, 92);
 
 }
+
 
 /* sec-1 */
 .sec-1{
@@ -178,6 +179,10 @@ background: linear-gradient(90deg, rgba(182,228,197,1) 32%, rgba(239,250,243,1) 
     border: none;
     color: rgb(75, 156, 92);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.col2-b1:hover{
+    background-color:rgb(75, 156, 92) ;
+    color: white;
 }
 
 @media (max-width:1100px) {
@@ -320,6 +325,22 @@ background: linear-gradient(90deg, rgba(181,229,195,1) 27%, rgba(217,242,223,1) 
     color: rgb(75, 156, 92);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+.row4-3 button:hover{
+    background-color:rgb(75, 156, 92) ;
+    color: white;
+}
+.card-body a{
+    background-color:rgb(75, 156, 92) ;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.card-body a:hover{
+    background-color:rgb(75, 156, 92) ;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
 
 
 /* sect-5 */
@@ -374,4 +395,8 @@ background: linear-gradient(90deg, rgba(217,242,223,1) 21%, rgba(181,229,195,1) 
 }
 .card{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.2s;
+}
+.card:hover{
+    transform: scale(1.03);
 }
